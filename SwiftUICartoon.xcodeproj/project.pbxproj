@@ -11,6 +11,13 @@
 		08057D2D27BE2F5F0089982E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08057D2C27BE2F5F0089982E /* ContentView.swift */; };
 		08057D2F27BE2F610089982E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08057D2E27BE2F610089982E /* Assets.xcassets */; };
 		08057D3227BE2F610089982E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08057D3127BE2F610089982E /* Preview Assets.xcassets */; };
+		08057D3927BE2FD60089982E /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08057D3827BE2FD60089982E /* SunView.swift */; };
+		08057D3B27BE32C20089982E /* MoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08057D3A27BE32C20089982E /* MoonView.swift */; };
+		08057D3D27BE332E0089982E /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08057D3C27BE332E0089982E /* StarView.swift */; };
+		08057D3F27BE4CFC0089982E /* AirplaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08057D3E27BE4CFC0089982E /* AirplaneView.swift */; };
+		08057D4127BE84560089982E /* RoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08057D4027BE84560089982E /* RoadView.swift */; };
+		08057D4327BE99310089982E /* RaindropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08057D4227BE99310089982E /* RaindropView.swift */; };
+		08057D4527BE9AFE0089982E /* CloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08057D4427BE9AFE0089982E /* CloudView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		08057D2C27BE2F5F0089982E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08057D2E27BE2F610089982E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08057D3127BE2F610089982E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08057D3827BE2FD60089982E /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		08057D3A27BE32C20089982E /* MoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonView.swift; sourceTree = "<group>"; };
+		08057D3C27BE332E0089982E /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		08057D3E27BE4CFC0089982E /* AirplaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneView.swift; sourceTree = "<group>"; };
+		08057D4027BE84560089982E /* RoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadView.swift; sourceTree = "<group>"; };
+		08057D4227BE99310089982E /* RaindropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaindropView.swift; sourceTree = "<group>"; };
+		08057D4427BE9AFE0089982E /* CloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				08057D2A27BE2F5F0089982E /* SwiftUICartoonApp.swift */,
 				08057D2C27BE2F5F0089982E /* ContentView.swift */,
+				08057D4027BE84560089982E /* RoadView.swift */,
+				08057D3E27BE4CFC0089982E /* AirplaneView.swift */,
+				08057D3827BE2FD60089982E /* SunView.swift */,
+				08057D3A27BE32C20089982E /* MoonView.swift */,
+				08057D3C27BE332E0089982E /* StarView.swift */,
+				08057D4227BE99310089982E /* RaindropView.swift */,
+				08057D4427BE9AFE0089982E /* CloudView.swift */,
 				08057D2E27BE2F610089982E /* Assets.xcassets */,
 				08057D3027BE2F610089982E /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08057D3927BE2FD60089982E /* SunView.swift in Sources */,
+				08057D4127BE84560089982E /* RoadView.swift in Sources */,
+				08057D3B27BE32C20089982E /* MoonView.swift in Sources */,
+				08057D4527BE9AFE0089982E /* CloudView.swift in Sources */,
 				08057D2D27BE2F5F0089982E /* ContentView.swift in Sources */,
+				08057D3D27BE332E0089982E /* StarView.swift in Sources */,
+				08057D3F27BE4CFC0089982E /* AirplaneView.swift in Sources */,
 				08057D2B27BE2F5F0089982E /* SwiftUICartoonApp.swift in Sources */,
+				08057D4327BE99310089982E /* RaindropView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
